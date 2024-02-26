@@ -18,7 +18,7 @@ The `fmt` package is Go's way of handling formatted I/O (Input/Output). The `Pri
 
 Go is statically typed, which means every variable has a type that is known at compile time. However, Go offers flexibility in variable declaration and initialization. Let's look at two ways to declare variables:
 
-The Standard Way
+### The Standard Way
 
 ```go
 var message string = "Go is fun!"
@@ -27,7 +27,7 @@ fmt.Println(message)
 
 Here, we explicitly state the type of the variable `message` as `string`. This method is clear and expressive, especially when you're starting out or when the type of the variable isn't obvious from the context.
 
-The Shorthand Method
+### The Shorthand Method
 
 ```go
 shorthandMessage := "Learning Go is exciting!"
